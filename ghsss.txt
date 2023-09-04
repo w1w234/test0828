@@ -1,0 +1,11 @@
+int foo(int a, int b)
+{
+    if (a < 10 || b < 10) // 判定
+    {
+        return 0; // 语句1
+    }
+    else
+    {
+        return 1; // 语句2
+    }
+}
